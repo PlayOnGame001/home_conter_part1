@@ -21,13 +21,13 @@ namespace home_conter_part1
     }
     public partial class MainWindow : Window, IView
     {
-            private Presenter _presenter;
+            private User _presenter;
 
             public MainWindow()
             {
                 InitializeComponent();
 
-                _presenter = new Presenter(this, new Model());
+                _presenter = new User(this, new Model());
             }
 
             private void Button_Click(object sender, RoutedEventArgs e)

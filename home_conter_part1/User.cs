@@ -7,12 +7,12 @@ using System.Windows;
 
 namespace home_conter_part1
 {
-    class Presenter
+    class User
     {
         private MainWindow _view;
         private Model _model;
 
-        public Presenter(MainWindow view, Model model)
+        public User(MainWindow view, Model model)
         {
             _view = view;
             _model = model;
